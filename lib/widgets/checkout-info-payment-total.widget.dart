@@ -47,7 +47,6 @@ class InfoTotalPayment extends StatelessWidget {
                             fontSize: 16,
                             fontWeight: FontWeight.w500)),
                   ),
-
                   Text(
                     "R\$4250",
                     style: GoogleFonts.poppins(
@@ -82,13 +81,7 @@ class InfoTotalPayment extends StatelessWidget {
                           fontSize: 16,
                           fontWeight: FontWeight.w600)),
                 ),
-                onPressed: () {
-                  /*
-                          Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => Checkout()));*/
-                },
+                onPressed: () {},
               ),
             ),
           ],
