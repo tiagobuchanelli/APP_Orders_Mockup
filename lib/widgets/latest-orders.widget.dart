@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:mockup_app_pedidos/store/database-latest-orders.store.dart';
+import 'package:mockup_app_pedidos/widgets/cards/card-last-orders.dart';
 
 class LatestOrders extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.only(left: 15, right: 15, bottom: 10),
+      margin: EdgeInsets.only(left: 16, right: 16, bottom: 10),
       decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.all(Radius.circular(8)),
@@ -72,60 +72,8 @@ class LatestOrders extends StatelessWidget {
                 itemCount: imgList.length,
                 itemBuilder: (context, index) => Padding(
                     padding: EdgeInsets.all(0),
-                    child: _cardCategorias(context, index, imgList)),
+                    child: CardLastOrders(index, imgList)),
               )),
-        ],
-      ),
-    );
-  }
-
-  Widget _cardCategorias(BuildContext context, int index, List lista) {
-    return Container(
-      child: Row(
-        children: <Widget>[
-          Expanded(
-            flex: 1,
-            child: Padding(
-              padding: EdgeInsets.only(left: 20),
-              child: Container(
-                //alignment: Alignment.center,
-                //padding: EdgeInsets.all(8),
-                height: 14.0,
-                width: 14.0,
-                //child: Center(child: Text("Your child here")),
-                decoration: BoxDecoration(
-                  shape: BoxShape.circle,
-                  color: Theme.of(context).primaryColor.withOpacity(0.9),
-                ),
-              ),
-            ),
-          ),
-          Expanded(
-            flex: 9,
-            child: ListTile(
-              //leading: Icon(Icons.people),
-              title: Text(
-                lista[index].name,
-                style: GoogleFonts.poppins(
-                    textStyle: TextStyle(
-                        color: Colors.grey[600],
-                        //letterSpacing: .0,
-                        fontSize: 14,
-                        fontWeight: FontWeight.normal)),
-              ),
-              trailing: Text(
-                lista[index].price,
-                textAlign: TextAlign.right,
-                style: GoogleFonts.poppins(
-                    textStyle: TextStyle(
-                        color: Colors.grey[700],
-                        //letterSpacing: .0,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w500)),
-              ),
-              //subtitle: Text(lista[index].date),
-            ),
-          )
         ],
       ),
     );

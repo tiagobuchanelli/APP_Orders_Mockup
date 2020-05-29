@@ -8,7 +8,7 @@ class BoxNotes extends StatelessWidget {
     return Container(
       //height: 400,
       width: double.infinity,
-      margin: EdgeInsets.only(left: 15, right: 15, bottom: 10, top: 5),
+      margin: EdgeInsets.only(left: 16, right: 16, bottom: 10, top: 5),
       decoration: BoxDecoration(
         color: Theme.of(context).primaryColor.withOpacity(0.9),
         borderRadius: BorderRadius.all(Radius.circular(8)),

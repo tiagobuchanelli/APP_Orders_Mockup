@@ -9,7 +9,7 @@ class BoxFlexPoints extends StatelessWidget {
     return Container(
       //height: 400,
       width: double.infinity,
-      margin: EdgeInsets.only(left: 15, right: 15, bottom: 15, top: 0),
+      margin: EdgeInsets.only(left: 16, right: 16, bottom: 15, top: 0),
       decoration: BoxDecoration(
         color: Theme.of(context).primaryColor.withOpacity(0.9),
         borderRadius: BorderRadius.all(Radius.circular(8)),

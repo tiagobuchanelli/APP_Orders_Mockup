@@ -4,6 +4,7 @@ import 'package:getflutter/shape/gf_button_shape.dart';
 import 'package:getflutter/types/gf_button_type.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:mockup_app_pedidos/models/item-categ.model.dart';
+import 'package:mockup_app_pedidos/views/product-detail.view.dart';
 
 class CardSection extends StatelessWidget {
   final int index;
@@ -170,7 +171,17 @@ class CardSection extends StatelessWidget {
                                     fontWeight: FontWeight.w500))),
                       ],
                     ),
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => ProductDetail(
+                              listData[index].name,
+                              listData[index].preco,
+                              listData[index].image),
+                        ),
+                      );
+                    },
                   ),
                 ),
               ],

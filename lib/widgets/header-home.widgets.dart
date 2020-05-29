@@ -49,7 +49,7 @@ class _HeaderHomeState extends State<HeaderHome> {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
               Padding(
-                padding: const EdgeInsets.only(left: 15),
+                padding: const EdgeInsets.only(left: 16),
                 child: Container(
                   width: 200,
                   color: Colors.transparent,
@@ -85,7 +85,7 @@ class _HeaderHomeState extends State<HeaderHome> {
                       size: 22,
                     ),
                     Padding(
-                      padding: EdgeInsets.only(right: 20),
+                      padding: EdgeInsets.only(right: 16),
                     )
                   ],
                 ),
@@ -94,8 +94,8 @@ class _HeaderHomeState extends State<HeaderHome> {
           ),
         ),
         Positioned(
-          left: 15.0,
-          right: 15.0,
+          left: 16.0,
+          right: 16.0,
           top: 100.0,
           child: Container(
             //color: Colors.pink,

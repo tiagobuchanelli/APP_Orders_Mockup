@@ -16,7 +16,7 @@ class OptionsSection extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: <Widget>[
         Padding(
-          padding: const EdgeInsets.only(left: 15, right: 15),
+          padding: const EdgeInsets.only(left: 16, right: 16),
           child: Row(
             //mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: <Widget>[
