@@ -26,59 +26,76 @@ List<ItemCateg> listaCatPromo = <ItemCateg>[
       'R\$849,90'),
 ];
 
-List<ItemCateg> listaCatCarnesDados = <ItemCateg>[
+List<ItemCateg> listaCatSuspensao = <ItemCateg>[
   new ItemCateg(
-      'Picanha Bovina', //nome
-      'https://static.paodeacucar.com/img/uploads/1/44/653044.jpg', //descricao
-      '1,2 kg',
-      'Poupe R\$5,50',
-      'R\$79,90',
-      'R\$85,40'),
+      'Bucha do Tensor Dianteiro ', //nome
+      'https://images.canaldapeca.com.br/produtos/gg/46/41/bucha-do-tensor-dianteiro-1514146-1454100589426.jpg', //descricao
+      'FORD F 2000',
+      'Poupe R\$0,50',
+      'R\$3,48',
+      'R\$3,98'),
   new ItemCateg(
-      'Alcatra em Bife', //nome
-      'https://static.clubeextra.com.br/img/uploads/1/178/593178.png', //descricao
-      '500 g',
-      'Poupe R\$1,15',
-      'R\$15,84',
-      'R\$16,99'),
+      'Retentor do Cubo de Roda ', //nome
+      'https://images.canaldapeca.com.br/produtos/gg/26/53/retentor-do-cubo-de-roda-traseiro-1995326-1560356952956.jpg', //descricao
+      'MB 1721',
+      'Poupe R\$26,81',
+      'R\$87,69',
+      'R\$114,50'),
   new ItemCateg(
-      'Frango Inteiro', //nome
-      'https://static.clubeextra.com.br/img/uploads/1/300/618300.png', //descricao
-      '1,3 kg',
-      'Poupe R\$4,11',
-      'R\$17,39',
-      'R\$21,50'),
+      'Pivô - Nakata', //nome
+      'https://images.canaldapeca.com.br/produtos/gg/12/60/pivo-de-suspensao-1556012-1443624899797.jpg', //descricao
+      'Gol/Parati',
+      'Poupe R\$9,99',
+      'R\$59,00',
+      'R\$68,99'),
 ];
 
-List<ItemCateg> listaCatCarnesDadosSugeridos = <ItemCateg>[
+List<ItemCateg> listaCatFreios = <ItemCateg>[
   new ItemCateg(
-      'Cafeteira Expresso Dolce  Gusto', //nome
-      'https://i.zst.com.br/images/cafeteira-expresso-arno-dolce-gusto-piccolo-photo6418817-12-38-1b.jpg', //descricao
-      'unidade',
-      'Poupe R\$62,85',
-      'R\$257,55',
-      'R\$320,40'),
+      'Pastilha de Freio - BN 1089', //nome
+      'https://images.canaldapeca.com.br/produtos/gg/28/83/pastilha-de-freio-bn-1089-1778328-1452692264184.jpg', //descricao
+      'Acura RDX',
+      'Poupe R\$33,23',
+      'R\$266,76',
+      'R\$299,99'),
   new ItemCateg(
-      'Cadeira de Praia Alta Alumínio', //nome
-      'https://cdn.leroymerlin.com.br/products/cadeira_de_praia_aluminio_4_posicoes_azul_e_branca_84x54cm_89978693_0001_300x300.jpg', //descricao
-      'unidade',
-      'Poupe R\$30,00',
-      'R\$139,90',
-      'R\$169,90'),
+      'Disco de Freio - Nakata', //nome
+      'https://images.canaldapeca.com.br/produtos/gg/65/45/disco-de-freio-1094565-1512147247694.png', //descricao
+      'F 250',
+      'Poupe R\$37,40',
+      'R\$777,10',
+      'R\$814,50'),
   new ItemCateg(
-      'Cerveja Stella Artois Pack', //nome
-      'https://emporiodacerveja.vteximg.com.br/arquivos/ids/161260-1000-1000/stella1.jpg?v=636102552119900000', //descricao
-      'kg',
-      'Poupe R\$4,04',
-      'R\$19,90',
-      'R\$23,94'),
+      'Cilindro de roda - ATE', //nome
+      'https://images.canaldapeca.com.br/produtos/gg/03/05/cilindro-de-roda-1670503-1552348448792.jpg', //descricao
+      'Chevrolet 3100',
+      'Poupe R\$10,89',
+      'R\$95,99',
+      'R\$106,88'),
+];
+
+List<ItemCateg> listaCatMotor = <ItemCateg>[
   new ItemCateg(
-      'Carvao para churrasco Gourmet de Briquete - 5KG', //nome
-      'https://images-submarino.b2w.io/produtos/01/00/img/469989/4/469989493_1GG.jpg', //descricao
-      'kg',
-      'Poupe R\$3,60',
-      'R\$17,90',
-      'R\$21,50'),
+      'Compressor do Ar Cond', //nome
+      'https://images.canaldapeca.com.br/produtos/gg/41/63/compressor-do-ar-condicionado-1846341-1468358974888.jpg', //descricao
+      'Blazer',
+      'Poupe R\$100,00',
+      'R\$899,99',
+      'R\$999,99'),
+  new ItemCateg(
+      'Kit de Reparo da Bomba DÁgua', //nome
+      'https://images.canaldapeca.com.br/produtos/gg/95/59/kit-de-reparo-da-bomba-dagua-1555995-1443796313440.jpg', //descricao
+      'F 11000',
+      'Poupe R\$10,54',
+      'R\$215,45',
+      'R\$225,99'),
+  new ItemCateg(
+      'Filtro de Ar - Mann-Filter', //nome
+      'https://images.canaldapeca.com.br/produtos/gg/24/86/filtro-de-ar-1088624-1567532512418.jpg', //descricao
+      'Gurgel G800',
+      'Poupe R\$8,80',
+      'R\$39,99',
+      'R\$48,79'),
 ];
 
 /*

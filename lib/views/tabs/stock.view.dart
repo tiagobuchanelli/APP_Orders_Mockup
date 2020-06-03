@@ -111,27 +111,21 @@ class _StockViewState extends State<StockView> {
                 height: 10,
                 color: Colors.grey[100],
               ),
-              SectionPageStocks('Categoria 1', listaCatPromo),
+              SectionPageStocks('Suspensão', listaCatSuspensao),
               Container(
                 height: 10,
                 color: Colors.grey[100],
               ),
-              SectionPageStocks('Categoria 1', listaCatPromo),
+              SectionPageStocks('Freios', listaCatFreios),
               Container(
                 height: 10,
                 color: Colors.grey[100],
               ),
-              SectionPageStocks('Categoria 1', listaCatPromo),
+              SectionPageStocks('Motor', listaCatMotor),
               Container(
                 height: 10,
                 color: Colors.grey[100],
               ),
-              SectionPageStocks('Categoria 1', listaCatPromo),
-              Container(
-                height: 10,
-                color: Colors.grey[100],
-              ),
-              SectionPageStocks('Categoria 1', listaCatPromo),
             ],
           ),
         ));

@@ -55,7 +55,7 @@ class CardOrders extends StatelessWidget {
           Expanded(
             flex: 2,
             child: Container(
-              height: 100,
+              height: 115,
               padding: EdgeInsets.only(left: 15),
               //color: Colors.yellow,
               child: Column(
@@ -77,7 +77,7 @@ class CardOrders extends StatelessWidget {
                   Align(
                     alignment: Alignment.topLeft,
                     child: Text(
-                      lista[index].name,
+                      lista[index].installment,
                       textAlign: TextAlign.left,
                       style: GoogleFonts.poppins(
                           textStyle:

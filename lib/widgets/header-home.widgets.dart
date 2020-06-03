@@ -252,7 +252,7 @@ class _HeaderHomeState extends State<HeaderHome> {
                     children: <Widget>[
                       Container(
                         padding: EdgeInsets.only(top: 5),
-                        width: 120,
+                        width: 110,
                         //color: Colors.green,
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
@@ -340,7 +340,7 @@ class _HeaderHomeState extends State<HeaderHome> {
                       ),
                       Container(
                         padding: EdgeInsets.only(top: 5),
-                        width: 120,
+                        width: 110,
                         //color: Colors.green,
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
@@ -428,7 +428,7 @@ class _HeaderHomeState extends State<HeaderHome> {
                       ),
                       Container(
                         padding: EdgeInsets.only(top: 5),
-                        width: 120,
+                        width: 110,
                         //color: Colors.green,
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
