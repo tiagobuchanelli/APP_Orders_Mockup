@@ -1,7 +1,10 @@
 # Mockup Pedidos
 
-Mockup de aplicativo para Vendedores e Distribuidotas.
-- Exercicio focado na modelagem e estilização da aplicação.
+Application Project for Sellers and Customers
+- Development of the structure and layout with data in mockup format.
+
+Current status:
+- Under development
 
 ## Screenshot
 
