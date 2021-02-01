@@ -2,6 +2,7 @@
 
 Application Project for Sellers and Customers
 - Development of the structure and layout with data in mockup format.
+- Not real project.
 
 Current status:
 - Under development
